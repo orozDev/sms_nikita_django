@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+    <login>orozking</login>
+    <pwd>RUv6hGXN</pwd>
+    <id>A82726</id>
+    <sender>SMSPRO.KG</sender>
+    <text>oroz 111</text>
+    <phones>
+        <phone>996776780472</phone>
+    </phones>
+    <test>1</test>
+</message>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+    <login>login</login>
+    <pwd>passwd</pwd>
+    <id>A88726</id>
+    <sender>My-company</sender>
+    <text>Any SMS message text</text>
+    <time>20100921235957</time>
+    <phones>
+        <phone>996550123456</phone>
+    </phones>
+    <test>1</test>
+</message>
