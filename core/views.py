@@ -69,7 +69,6 @@ class VerificateCode(GenericAPIView):
         serializer.is_valid(raise_exception=True)
         phone = serializer.data['phone']
         code = serializer.data['code']
-        print(code)
         verification = Verification(phone)
         is_correct = verification.verificate_code(code)
         return Response({'is_correct': is_correct}, status=202 if is_correct else 400)
